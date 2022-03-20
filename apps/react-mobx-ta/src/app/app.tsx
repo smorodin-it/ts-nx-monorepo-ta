@@ -1,13 +1,12 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import { ThemeProvider } from '@mui/material';
+import { lightTheme } from './themes/light';
+import Router from './router/Router';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="react-mobx-ta" />
-      <div />
-    </>
+    <ThemeProvider theme={lightTheme}>
+      <Router />
+    </ThemeProvider>
   );
 }
 

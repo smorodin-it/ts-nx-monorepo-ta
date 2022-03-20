@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "react-mobx-ta": "apps/react-mobx-ta",
-    "react-mobx-ta-e2e": "apps/react-mobx-ta-e2e"
+    "react-mobx-ta-e2e": "apps/react-mobx-ta-e2e",
+    "utils-lib": "libs/utils-lib"
   }
 }
